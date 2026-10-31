@@ -1,0 +1,15 @@
+{
+  "name": "productivity-tracker-autotests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API и UI автотесты для Productivity Tracker на Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test tests/ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
